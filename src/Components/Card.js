@@ -20,7 +20,7 @@ const Card = (props) => {
             <div className="flex flex-wrap text-lg font-bold">{props.data.title}</div>
             <div className="flex justify-between mt-32">
                 <div className="text-grey-200 text-sm font-medium">{dateString}</div>
-                <img src={Trash} width={16} onClick={()=>setDeleteModal(true)}/>
+                <img src={Trash} width={16} onClick={()=>setDeleteModal(true)} alt="Trash"/>
             </div>
             {deleteModal&&<DeleteModal title={props.data.title} id={props.data.id} deleteModalHandler={deleteModalHandler}/>}
         </div>

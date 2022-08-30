@@ -17,7 +17,7 @@ const DeleteModal = (props) =>{
             <div data-cy="modal-delete" className="relative my-4 mx-auto w-2/5">
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white-100 outline-none focus:outline-none">
                 <div className="relative p-6 flex flex-col justify-center items-center">
-                    <img src={DeleteIcon} width={81}/>
+                    <img src={DeleteIcon} width={81} alt="delete"/>
                     <div className="font-medium text-lg text-center mt-12">
                         Apakah anda yakin akan menghapus activity
                     </div>

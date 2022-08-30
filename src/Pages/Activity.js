@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Header from "../Components/Header";
 import todoEmpty from "../Images/todo-empty-state.png"
 import plus from "../Images/plus.png"
@@ -18,7 +18,7 @@ const Activity = () => {
             </div>
 
             <div data-cy="todo-empty-state" className="flex justify-center mx-56">
-                <img src={todoEmpty} width={541} className="mt-24 mb-72"/>
+                <img src={todoEmpty} width={541} className="mt-24 mb-72" alt="todo empty state"/>
             </div>
         </div>
     )

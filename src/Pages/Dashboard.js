@@ -27,7 +27,7 @@ const Dashboard = () => {
                 <div className="flex mt-11 justify-between">
                     <div className="text-4xl font-bold text-black">Activity</div>
                     <button data-cy="activity-add-button" className="bg-blue text-white-100 flex items-center px-7 rounded-3xl" onClick={()=>addNewActivity()}>
-                        <img src={plus} width={12} className="mr-2"/>
+                        <img src={plus} width={12} className="mr-2" alt="plus"/>
                         Tambah
                     </button>
                 </div>
@@ -42,7 +42,7 @@ const Dashboard = () => {
             }
             
             <div data-cy="activity-empty-state" className="flex justify-center mx-56">
-                {!data&&<img src={emptyState} width={700} className="mt-40 mb-64"/>}
+                {!data&&<img src={emptyState} width={700} className="mt-40 mb-64" alt="activity empty state"/>}
             </div>
         </div>
     )
