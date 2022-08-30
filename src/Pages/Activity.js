@@ -11,7 +11,7 @@ const Activity = () => {
                 <div className="flex mt-11 justify-between">
                     <div data-cy="todo-title" className="text-4xl font-bold text-black">Activity</div>
                     <button data-cy="todo-add-button" className="bg-blue text-white-100 flex items-center px-7 rounded-3xl">
-                        <img src={plus} width={12} className="mr-2"/>
+                        <img src={plus} width={12} className="mr-2" alt="plus"/>
                         Tambah
                     </button>
                 </div>
